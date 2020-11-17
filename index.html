@@ -6,15 +6,16 @@
     <title>Portfolio Ricardo Miralles | Full Stack Developer</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
-    
+<body onload="getJSONFile()"">
     <div class="container-fluid h-100">
         <div class="main">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-12">
                     <div class="row">
-                        <div class="col-lg-10">                    
+                        <div class="col-lg-10 col-sm-12">                    
                             <img id="imgProfile" src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
                         </div>
                         <div class="col-lg-1">
@@ -23,36 +24,15 @@
                     </div>
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-12">
                     <div class="row">
                         <div class="content">
-                            <div class="line typing name">Ricardo Miralles</div>
-                            <div class="role">Full Stack Developer</div>
-                            <div class="connects">
-                                <a href="" class="logo" target="_blank">
-                                    <ion-icon name="logo-firefox" size="large"></ion-icon>
-                                </a>
-                                <a href="" class="logo" target="_blank">
-                                    <ion-icon name="logo-github" size="large"></ion-icon>
-                                </a>
-                                <a href="" class="logo" target="_blank">
-                                    <ion-icon name="logo-linkedin" size="large"></ion-icon>
-                                </a>
-                                <a href="" class="logo" target="_blank">
-                                    <ion-icon name="logo-stackoverflow" size="large"></ion-icon>
-                                </a>
-                                <a href="" class="logo" target="_blank">
-                                    <ion-icon name="logo-twitter" size="large"></ion-icon>
-                                </a>
-                                <a href="" class="logo" target="_blank">
-                                    <ion-icon name="logo-npm" size="large"></ion-icon>
-                                </a>
-                                <a href="mailto:ricmiber@gmail.com?Subject=Hello%20again" class="logo" target="_blank">
-                                    <ion-icon name="mail-outline" size="large"></ion-icon>
-                                </a>
+                            <div class="line typing name" id="names">user@ubuntu:~$ Ricardo Miralles</div>
+                            <div class="role" id="roles">[Full Stack Developer]</div>
+                            <div id="connects">
                             </div>
                             <div class="links">
-                                <a href="#projects" class="text-pink-500">Projects</a> - 
+                                <a href="#projects" id="projects" class="text-pink-500">Projects</a> - 
                                 <a href="#blogs" class="text-pink-500">Blogs</a>
                             </div>
                             <a target="_top" id="mail" href="mailto:ricmiber@gmail.com?Subject=Hello%20again">ricmiber@gmailcom</a>
@@ -62,7 +42,8 @@
             </div>
         </div>
     </div>
-<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+<script src="js/main.js"></script>
+<!-- <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
