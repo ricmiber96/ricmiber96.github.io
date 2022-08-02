@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title":"PickAuto 🚗",
+        "description": "Description 1",
+        "image": "https://camo.githubusercontent.com/f8f08f251aa28fee63fe27f80d8d5a2498ad2800d81b73df213d1bd77e0264b3/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d3169384f7a48344970365f3443737a366a675a634b656436547a536d56376c3945",
+        "tecnologies": ["React", "MariaDB", "MaterialUI"],
+        "links":[
+            "https://google.es",
+            "https://github.com/"
+        ]
+    },
+    {
+        "id": 2,
+        "title":"Notes App 📓",
+        "description": "Notes App",
+        "image": "../assets/img/screenshot_weather_app.png",
+        "tecnologies": ["React", "MongoDB", "MaterialUI"],
+        "links":[
+            "https://google.es",
+            "https://github.com/"
+        ]
+    },
+    {
+        "id": 3,
+        "title":"Rick & Morty App 🛸",
+        "description": "Description 3",
+        "image": "../assets/img/screenshot_rick.png",
+        "tecnologies": ["React", "Filter", "Pagination", "Search"],
+        "links":[
+            "https://google.es",
+            "https://github.com/"
+        ]
+    },
+    {
+        "id": 3,
+        "title":"Weather App 🌤",
+        "description": "Description 3",
+        "image": "../assets/img/screenshot_weather_app.png",
+        "tecnologies": ["React", "Custom Hooks", "Fetch Api"],
+        "links":[
+            "https://ricmiber96.github.io/react-weather-app",
+            "https://github.com/ricmiber96/react-weather-app"
+        ]
+    },
+    {
+        "id": 3,
+        "title":"Calculator 🧮",
+        "description": "Description 3",
+        "image": "https://camo.githubusercontent.com/f8f08f251aa28fee63fe27f80d8d5a2498ad2800d81b73df213d1bd77e0264b3/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d3169384f7a48344970365f3443737a366a675a634b656436547a536d56376c3945",
+        "tecnologies": ["React", "Fetch Data", "Styled Components"],
+        "links":[
+            "https://google.es",
+            "https://github.com/"
+        ]
+    },
+    {
+        "id": 3,
+        "title":"Memory Game 🧠",
+        "description": "Description 3",
+        "image": "https://camo.githubusercontent.com/f8f08f251aa28fee63fe27f80d8d5a2498ad2800d81b73df213d1bd77e0264b3/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d3169384f7a48344970365f3443737a366a675a634b656436547a536d56376c3945",
+        "tecnologies": ["React", "Game"],
+        "links":[
+            "https://google.es",
+            "https://github.com/"
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+.button-back{
+    position: fixed;
+    bottom: 5%;
+    /* left: 90%; */
+    left: 85%;
+    cursor: pointer;
+}
+
+.button-show{
+    display: block;
+}
+
+.button-hidden{
+    display: none;
+}
